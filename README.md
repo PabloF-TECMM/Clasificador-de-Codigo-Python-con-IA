@@ -18,5 +18,4 @@ Para ejecutar los notebooks de este proyecto, necesitarás contar con las siguie
    * Se recomienda activar el entorno de ejecución con **T4 GPU** (o superior) en Colab para acelerar el entrenamiento y la inferencia de los modelos.
 
 2. **Cuenta de Hugging Face:**
-   * Es necesaria para descargar los tokenizadores, modelos base de lenguaje (como CodeBERT, StarCoder, etc., si los usas) o datasets.
    * **Token de Acceso (HF Token):** Deberás generar un *Access Token* (con permisos de lectura/Write según corresponda) desde tu perfil de Hugging Face e ingresarlo en el notebook cuando se te solicite (`notebook_login()`).
